@@ -30,7 +30,7 @@ function PhoneGuess({ inputType, setInputType, setphoneNumber }) {
 
 	return (
 		<div>
-			<p>Enter your phone number:</p>
+			<p>Is this your phone number?</p>
 			<input id='number-display' type='text' value={displayCurrentGuess()} readOnly />
 			<br />
 			<button onClick={handleHigherClick}>Higher</button>
