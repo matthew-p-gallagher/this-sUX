@@ -35,6 +35,8 @@ function App() {
 		);
 	} else if (inputType === 3) {
 		componentToRender = <Email inputType={inputType} setInputType={setInputType} setEmail={setEmail} />;
+	} else if (inputType === 4) {
+		componentToRender = <div>Thank you! Your information will be sold for our profit.</div>;
 	}
 
 	return (
@@ -56,6 +58,7 @@ function App() {
 					<p>Last Name: {lastName}</p>
 					<p>Phone Number: {phoneNumber}</p>
 					<p>Email: {email}</p>
+					<button onClick={() => setInputType(4)}>Submit</button>
 				</div>
 			)}
 			{componentToRender}
