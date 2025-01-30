@@ -1,3 +1,5 @@
 # This sUX
 
-## Enter your details to win a prize!
+## The pinnacle of UI/UX
+
+https://matthew-p-gallagher.github.io/this-sUX/
